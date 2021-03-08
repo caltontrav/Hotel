@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background-image: url(./image/food.jpg);
+    background-size: cover;
+    height: 60vh;
+    position: relative;
+    background-attachment: fixed;
+}
+header{
+    padding: 5px ;
+    background-color:rgba(255, 255, 255,0.6);
+}
+.shop{
+    float: left;
+    display: inline-block;
+    color: black;
+}
+.title-color{
+    text-transform: uppercase;
+    color: #ff4181;
+}
+.signup-popup{
+    font-family: poppins;
+    
+}
+.signup-popup h1{
+    text-transform: uppercase;
+}
+.signup-popup input[type="text"],.signup-popup input[type="email"], .signup-popup input[type="password"], .signup-popup input[type="phone"]{
+    font-size: 1em;
+    outline: none;
+}
+.btn2,.btn3{
+    height: 30px;
+    margin: 1em 0 0 0;
+    outline: none;
+    color:black;
+    width: 10%;
+    text-decoration: none;
+}
+.btn2:hover, .btn3:hover,.btn2:focus,.btn3:focus{
+    background: none;
+    border: 1px solid #ff4181;
+    margin: 0px;
+}
+
+
